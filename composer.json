@@ -1,0 +1,33 @@
+{
+  "name": "mtnvietnam/statamic-bookable",
+  "description": "Booking & Appointment Plugin for Statamic",
+  "autoload": {
+    "psr-4": {
+      "MTN\\StatamicBookable\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hiep Thai",
+      "email": "hiepthai@mtn.vn",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "hiepthai@mtn.vn"
+  },
+  "require": {
+    "statamic/cms": "^3.0"
+  },
+  "extra": {
+    "statamic": {
+      "name": "Statamic Bookable",
+      "description": "Booking & Appointment Plugin for Statamic"
+    },
+    "laravel": {
+      "providers": [
+        "MTN\\StatamicBookable\\ServiceProvider"
+      ]
+    }
+  }
+}
